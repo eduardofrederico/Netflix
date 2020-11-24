@@ -13,3 +13,25 @@ body {
     background: var(--black);
     font-family: 'Times New Roman', 'Times New Roman', Times, serif; /*Refatorar com fonte especifica*/
 }
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--red);
+    font: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
