@@ -13,7 +13,7 @@
 
 body {
     background: var(--black);
-    font-family: 'Times New Roman', 'Times New Roman', Times, serif; /*Refatorar com fonte especifica*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Refatorar com fonte especifica*/
     color: white;
 }
 
@@ -25,7 +25,7 @@ header .container {
 
 header .logo {
     color: var(--red);
-    font: 'Arial Black', Times;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
 }
 
@@ -79,7 +79,7 @@ header nav a:hover {
     font-size: 12px;
 
     cursor: pointer;
-    transition: 4s ease all;
+    transition: 3s ease all;
 }
 
 .botao:hover {
@@ -103,4 +103,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 6px;
 }
